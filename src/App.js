@@ -66,7 +66,7 @@ function App() {
 
           {array.map((value, index) => (
 
-            <div id="bar" key={index} style={{ height: value, backgroundColor: PRIMARY_COLOR }} className={`w-[10px]  rounded `}>
+            <div  key={index} style={{ height: value, backgroundColor: PRIMARY_COLOR }} className={`w-[10px] rounded bar `}>
               {/* {console.log(value)} */}
             </div>
           ))}
